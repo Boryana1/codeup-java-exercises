@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Arrays;
 import java.util.List;
 //import wagu.Block;
@@ -60,17 +61,24 @@ public class ControlFlowExercises {
 
 //        3. Display a table of powers
 
-        Scanner num = new Scanner(System.in);
+        Scanner newScanner = new Scanner(System.in);
         System.out.println("What number would you like to go up to? You can choose from 1 to 10.");
-        int number = num.nextInt();
-        String company = "";
-        List<String> t1Headers = Arrays.asList("number", "CUSTOMER");
-        List<List<String>> t1Rows = Arrays.asList(
-                Arrays.asList("DATE: 2015-9-8", "ModernTec Distributors"),
-                Arrays.asList("TIME: 10:53:AM", "MOB: +94719530398"),
-                Arrays.asList("BILL NO: 12", "ADDRES: No 25, Main Street, Kandy."),
-                Arrays.asList("INVOICE NO: 458-80-108", "")
-        );
+        int userInput = newScanner.nextInt();
+        System.out.print("number\t | squared\t | cubed \n-----\t | -----\t | -----\n");
+        for (int i = 1; i <= userInput ; i++) {
+            int squared = (int) Math.pow(i, 2);
+            int cubed = (int) Math.pow(i, 3);
+            System.out.printf("%s \t \t | %s \t \t | %s \n", i, squared, cubed);
+        }
+//        System.out.format("%32s%10d%16s", string1, int1, string2);
+//        String company = "";
+//        List<String> t1Headers = Arrays.asList("number", "squared", "cubed");
+//        List<List<String>> t1Rows = Arrays.asList(
+//                b.asList("DATE: 2015-9-8", "ModernTec Distributors"),
+//                Arrays.asList("TIME: 10:53:AM", "MOB: +94719530398"),
+//                Arrays.asList("BILL NO: 12", "ADDRES: No 25, Main Street, Kandy."),
+//                Arrays.asList("INVOICE NO: 458-80-108", "")
+//        );
 //        System.out.format("%32s%10d%16s", string1, int1, string2);
 
 
