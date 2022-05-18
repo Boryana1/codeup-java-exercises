@@ -81,6 +81,27 @@ public class ControlFlowExercises {
 //        );
 //        System.out.format("%32s%10d%16s", string1, int1, string2);
 
+//        4.Convert given number grades into letter grades.
+//          Grade Ranges:
+//          A : 100 - 88
+//          B : 87 - 80
+//          C : 79 - 67
+//          D : 66 - 60
+//          F : 59 - 0
+
+        System.out.println("Enter a numerical grade from 0 to 100:");
+        int gradeInput = newScanner.nextInt();
+        if(gradeInput > 88 && gradeInput < 100){
+            System.out.println("You have an A.");
+        }else if(gradeInput > 80 && gradeInput < 87){
+            System.out.println("You have a B.");
+        }else if(gradeInput > 67 && gradeInput < 79){
+            System.out.println("You have a C.");
+        }else if(gradeInput > 60 && gradeInput < 66){
+            System.out.println("You have a D.");
+        }else if(gradeInput > 0 && gradeInput < 59){
+            System.out.println("You have a F.");
+        }
 
     }
 }
