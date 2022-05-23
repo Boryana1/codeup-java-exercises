@@ -17,7 +17,7 @@ public class Person {
     }
 //        Person p1 = new Person();
     public Person(String personName){
-        name = personName;
+        this.name = personName;
     }
 
     public static void main(String[] args) {
