@@ -8,15 +8,16 @@ import java.util.List;
 public class ControlFlowExercises {
     public static void main(String[] args) {
 
-//    1.Loop Basics
-//      a. While:
+//    TODO: 1.Loop Basics
+//      TODO: a. While:
+
 //        int i = 5;
 //        while (i <= 15){
 //            System.out.println(i);
 //            i++;
 //        }
 //
-////        b. Do While:
+////       TODO: b. Do While:
 //        int a = 105;
 //        do {
 //            a -= 5;
@@ -29,7 +30,7 @@ public class ControlFlowExercises {
 //            b *= b;
 //        }while(b < 1000000);
 
-//      c. For loop:
+//         TODO: c. For loop:
 //        for (int i = 5; i <= 15; i++) {
 //            System.out.println(i);
 //        }
@@ -46,7 +47,7 @@ public class ControlFlowExercises {
 //            System.out.println(i);
 //        }
 
-//        2.Fizzbuzz
+//        TODO: 2.Fizzbuzz
 //        for (int i = 1; i <= 100; i++) {
 //            if ((i % 3 == 0) && (i % 5 == 0)) {
 //                System.out.println(i +" FizzBuzz");
@@ -59,7 +60,7 @@ public class ControlFlowExercises {
 //            }
 //        }
 
-//        3. Display a table of powers
+//         TODO: 3. Display a table of powers
 
         Scanner newScanner = new Scanner(System.in);
         System.out.println("What number would you like to go up to? You can choose from 1 to 10.");
@@ -81,7 +82,7 @@ public class ControlFlowExercises {
 //        );
 //        System.out.format("%32s%10d%16s", string1, int1, string2);
 
-//        4.Convert given number grades into letter grades.
+//        TODO: 4.Convert given number grades into letter grades.
 //          Grade Ranges:
 //          A : 100 - 88
 //          B : 87 - 80
