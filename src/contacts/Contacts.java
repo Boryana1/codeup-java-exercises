@@ -1,5 +1,4 @@
 package contacts;
-
 import java.util.ArrayList;
 
 public class Contacts {
@@ -11,6 +10,7 @@ public class Contacts {
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
+
 
 
     public String getName() {
@@ -25,7 +25,6 @@ public class Contacts {
     public static Contacts createContact(String name, String phoneNumber) {
         return new Contacts(name, phoneNumber);
     }
-
     ArrayList<String> contactList = new ArrayList<String>();
 
     public ArrayList<String> getContactList() {
@@ -38,10 +37,8 @@ public class Contacts {
 
     public void printContactList() {
         System.out.println("You have " + contactList.size() + " Contacts in your list.");
-        for (int i = 0; i < contactList.size(); i++) {
+        for(int i = 0; i < contactList.size(); i++) {
             System.out.println(i + " - " + contactList.get(i));
         }
     }
-
 }
-
