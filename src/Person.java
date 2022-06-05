@@ -26,10 +26,10 @@ public class Person {
 //        p1.sayHello();
 
 //        EXAMPLE 1:
-//        Person person1 = new Person("John");
-//        Person person2 = new Person("John");
-//        System.out.println(person1.getName().equals(person2.getName()));
-//        System.out.println(person1 == person2);
+        Person person1 = new Person("John");
+        Person person2 = new Person("John");
+        System.out.println(person1.getName().equals(person2.getName()));
+        System.out.println(person1 == person2);
 
 //        EXAMPLE 2:
 //        Person person1 = new Person("John");
@@ -37,12 +37,12 @@ public class Person {
 //        System.out.println(person1 == person2);
 
 //        EXAMPLE 3:
-        Person person1 = new Person("John");
-        Person person2 = person1;
-        System.out.println(person1.getName());
-        System.out.println(person2.getName());
-        person2.setName("Jane");
-        System.out.println(person1.getName());
-        System.out.println(person2.getName());
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
+//        person2.setName("Jane");
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
     }
 }
