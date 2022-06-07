@@ -9,7 +9,8 @@ public class ServerNameGenerator {
         return random[randomIndex];
     }
     public static void main(String[] args) {
-        System.out.println(ServerNameGenerator.randomElement(adjectives));
-        System.out.println(ServerNameGenerator.randomElement(nouns));
+        String randomAdj = ServerNameGenerator.randomElement(adjectives);
+        String randomNoun = ServerNameGenerator.randomElement(nouns);
+        System.out.printf("Here is your server name:\n%s-%s", randomAdj, randomNoun);
     }
 }
