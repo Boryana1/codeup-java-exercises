@@ -2,6 +2,7 @@ package movies;
 
 import util.Input;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -21,7 +22,17 @@ public class MoviesApplication {
 //Goodfellas -- drama
 //Pulp Fiction -- drama
 //...
+
+
+    public static void pesho() throws ArrayStoreException {
+        throw new ArrayStoreException();
+    }
+
     public static void main(String[] args) {
+
+        pesho();
+
+
         while (true) {
             System.out.println("What would you like to do?");
             System.out.println("0 - exit");
@@ -62,7 +73,7 @@ public class MoviesApplication {
                         System.out.println(movie.getName());
                     }
                 }
-            } else if(input == 0){
+            } else if (input == 0) {
                 break;
             }
         }
